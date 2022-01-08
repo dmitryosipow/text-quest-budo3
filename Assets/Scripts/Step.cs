@@ -1,3 +1,4 @@
+using NaughtyAttributes;
 using UnityEngine;
 
 public class Step : MonoBehaviour
@@ -6,5 +7,6 @@ public class Step : MonoBehaviour
     public string Content;
     public string Location;
     public Step[] Steps;
+    [ShowAssetPreview()]
     public Sprite Picture;
 }
